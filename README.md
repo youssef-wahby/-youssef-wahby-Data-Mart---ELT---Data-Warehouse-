@@ -17,3 +17,13 @@ The pipeline demonstrates SQL-based data ingestion, data cleansing, transformati
 ## 🏗️ Architecture
 
 ![SQL Data Warehouse Architecture](assets/medalion.png)
+## 🔄 Data Pipeline Flow
+
+1. **Data Sources:** CRM and ERP datasets provide the source data.
+2. **Bronze Layer:** Raw source data is loaded into the warehouse using a full-load ingestion strategy.
+3. **Silver Layer:** Data is cleaned, standardized, and prepared for further processing.
+4. **Gold Layer:** Business-ready datasets are organized into analytical models and data marts.
+5. **Documentation:** The data architecture is documented using draw.io.
+
+**Loading Strategy:** The pipeline uses `TRUNCATE` and full-load ingestion where implemented, replacing existing table contents before reloading the source data.
+![SQL Data Warehouse Architecture](assets/DataFlowDiagram.png)
