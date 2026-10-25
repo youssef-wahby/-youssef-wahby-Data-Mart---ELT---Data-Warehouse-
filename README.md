@@ -13,3 +13,5 @@ This project implements an end-to-end SQL Data Warehouse and ELT pipeline using 
 The pipeline demonstrates SQL-based data ingestion, data cleansing, transformation, and dimensional modeling, supported by architecture documentation created with draw.io.
 
 **Project Goal:** Build a structured and maintainable data warehouse that transforms raw source data into reliable, analytics-ready information.
+
+assets/Warehouse.drawio
