@@ -27,3 +27,18 @@ The pipeline demonstrates SQL-based data ingestion, data cleansing, transformati
 
 **Loading Strategy:** The pipeline uses `TRUNCATE` and full-load ingestion where implemented, replacing existing table contents before reloading the source data.
 ![SQL Data Warehouse Architecture](assets/DataFlowDiagram.png)
+![SQL Data Warehouse Architecture](assets/entityrelationshipdiagram.png)
+
+## 🛠️ Tech Stack
+
+* **Microsoft SQL Server** — Database platform used to implement the data warehouse and execute SQL-based ingestion and transformation.
+* **SQL** — Used for data loading, cleansing, transformation, and analytical modeling.
+* **Medallion Architecture** — Organizes data into Bronze, Silver, and Gold layers.
+* **draw.io** — Used to document and visualize the data warehouse architecture.
+-sql
+-sql-server
+-data-warehouse
+-elt
+-data-engineering
+-medallion-architecture
+-data-modeling
