@@ -43,5 +43,5 @@ The pipeline demonstrates SQL-based data ingestion, data cleansing, transformati
 -medallion-architecture
 -data-modeling
 <p align="center">
-  <img src="(assets/medalion.png)" alt="SQL Data Warehouse Architecture" width="850">
+  <img src="assets/medalion.png" alt="SQL Data Warehouse Architecture" width="850">
 </p>
