@@ -14,4 +14,4 @@ The pipeline demonstrates SQL-based data ingestion, data cleansing, transformati
 
 **Project Goal:** Build a structured and maintainable data warehouse that transforms raw source data into reliable, analytics-ready information.
 
-assets/Warehouse.drawio
+assets/medalion.png
